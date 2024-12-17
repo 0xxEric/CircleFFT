@@ -131,10 +131,11 @@ fn main() {
     let cfp = Point::generate_Gn_byG(g_5, 5);
     let G4 = Point::generate_Gn_byG(g_4, 4);
     let G3 = Point::generate_Gn_byG(g_3, 3);
+    let G3_prime = Point::generate_Gn_byG(g_4, 3);
     for (index, value) in G3.iter().enumerate() {
         println!("Index:{:?}, Value: {:?}", index, value);
     }
-    println!("Get subgroup Gn!");
+    println!("get subgroup Gn!");
     println!("------------------------------------");
 
     // Generate standard position twin-cosets;
@@ -143,6 +144,6 @@ fn main() {
     for (index, value) in spcoset.iter().enumerate() {
         println!("Index:{:?}, Value: {:?}", index, value);
     }
-    println!("Get standard position cosets D!");
+    println!("get standard position cosets D!");
     println!("------------------------------------");
 }
