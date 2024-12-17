@@ -134,7 +134,7 @@ fn main() {
     for (index, value) in G3.iter().enumerate() {
         println!("Index:{:?}, Value: {:?}", index, value);
     }
-    println!("get subgroup Gn!");
+    println!("Get subgroup Gn!");
     println!("------------------------------------");
 
     // Generate standard position twin-cosets;
@@ -143,6 +143,6 @@ fn main() {
     for (index, value) in spcoset.iter().enumerate() {
         println!("Index:{:?}, Value: {:?}", index, value);
     }
-    println!("get standard position cosets D!");
+    println!("Get standard position cosets D!");
     println!("------------------------------------");
 }
