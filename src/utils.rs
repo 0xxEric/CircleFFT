@@ -59,6 +59,6 @@ fn test() {
     println!("a: {:?}", a);
     let b = to_binary(7);
     println!("b: {:?}", b);
-    let c = to_binary(20);
+    let c = to_binary(29);
     println!("c: {:?}", c);
 }
